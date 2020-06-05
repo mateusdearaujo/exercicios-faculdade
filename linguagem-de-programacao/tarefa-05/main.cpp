@@ -85,7 +85,7 @@ double guardarC() {
     return c;
 }
 double calcular(double a, double b, double c) {
-    return pow((a * b * c), 3);
+    return cbrt(a * b * c);
 }
 void exibir(double a, double b, double c, double resultado) {
     cout << fixed << setprecision(2);
