@@ -53,6 +53,7 @@ switch(escolha) {
     return 0;
 }
 void menu() {
+    cout << endl;
     cout << "|//////////////////////////////////////|" << endl;
     cout << "|/      Programa de Cálculo em C++    /|" << endl;
     cout << "|/  1 - Ler Valores                   /|" << endl;
@@ -87,5 +88,7 @@ double calcular(double a, double b, double c) {
     return pow((a * b * c), 3);
 }
 void exibir(double a, double b, double c, double resultado) {
-    cout << "A média geométrica dos valores " << a << ", " << b << ", " << c << " é igual a: " << resultado;
+    cout << fixed << setprecision(2);
+    cout << setfill('.');
+    cout << "A média geométrica dos valores " << setw(10) << a << ", " << setw(10) << b << ", " << setw(10) << c << " é igual a: " << setw(10) << resultado;
 }
