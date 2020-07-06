@@ -67,7 +67,7 @@ void display(float salaryMale, float salaryFemale, float mediaMale, float mediaF
     cout.precision(2);
 	cout << "Salário total dos Homens: " << salaryMale << endl;
 	cout << "Média geral do salário dos Homens: " << mediaMale << endl;
-	cout << "Salário geral das Mulheres: " << salaryFemale << endl;
+	cout << "Salário total das Mulheres: " << salaryFemale << endl;
 	cout << "Média geral do salário das Mulheres: " << mediaFemale << endl;
 }
 
